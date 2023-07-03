@@ -2,10 +2,10 @@
 // The config you add here will be used whenever a users loads a page in their browser.
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/
 
-import * as Sentry from "@sentry/nextjs";
+import * as Sentry from "@sentry/nextjs"
 
 Sentry.init({
-  dsn: "https://f15578fbfc0544f7b1aec5ad5644cf71@o4505384071135232.ingest.sentry.io/4505384079917057",
+  dsn: "https://17799da0b13e414cb8d34bca36562a29@o4505384079065088.ingest.sentry.io/4505384082210816",
 
   // Adjust this value in production, or use tracesSampler for greater control
   tracesSampleRate: 1,
@@ -27,4 +27,4 @@ Sentry.init({
       blockAllMedia: true,
     }),
   ],
-});
+})
