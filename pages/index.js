@@ -77,7 +77,7 @@ export default function Home() {
 
               <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                 <h2 className="text-primary m-5 mt-5 mb-4">
-                  Kenapa harus mencari tallent di peworld
+                  Kenapa harus mencari tallent di Peworld
                 </h2>
                 {["Jaringan yang luas", "Pencarian Terperinci", "Growth Mindset Tallent", "Komunitas Interaktif"].map((item, key) => (
                   <div className="d-flex align-items-center mt-0" key={key}>
