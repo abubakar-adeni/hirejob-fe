@@ -182,33 +182,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-                  <div className="container mb-5 pb-5">
-        <div
-          className="row flex-column flex-md-row justify-content-between align-items-center px-5 py-4 mb-4 bg-primary"
-          style={{
-            height: "294px",
-            backgroundImage: "url('bg-mulai-dari-sekarang.png')",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            borderRadius: "5vw 1vw",
-          }}
-        >
-          <div className="col">
-            <h2 className="m-0 text-white text-center text-md-start">
-            Yuk, Jadi Talenta Handal Sekarang!
-            </h2>
-          </div>
-          <div className="col text-center text-md-end">
-            <Link
-              href="/talent"
-              className="btn btn-primary btn-lg bg-light text-primary fw-bold p-3"
-            >
-              Mulai Dari Sekarang
-            </Link>
-          </div>
-        </div>
-      </div>
       <Footer />
     </>
   );
